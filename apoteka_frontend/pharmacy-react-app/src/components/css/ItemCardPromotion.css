@@ -1,0 +1,150 @@
+body
+{
+  background-color:#f2f2f2;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button-pharmacy
+{
+  background-color: #16a0ce;
+  border-radius: 12px;
+  border: 0;
+  float: right;
+}
+
+#button-search
+{
+  background-color: #16a0ce;
+  border-radius: 12px;
+  border: 0;
+  margin-top: 10px;
+  background-image: url(https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:20px;
+  width: 30px;
+  height:30px;
+}
+
+.conteiner
+{
+  height: 100%;
+}
+#label-search
+{
+  font-style: oblique;
+  float:left;
+  margin-top:15px;
+  margin-right:15px;
+  font-size: 12px;
+  border: 0;
+}
+.input-search
+{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #16a0ce;
+}
+.form-div
+{
+  width: 250px;
+  height: 100%;
+  clear: both;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#left{
+  float:left;
+  border-right: solid 5px #16a0ce;
+  height: 100%;
+}
+
+#contnetPanel
+{
+  float:right;
+  height: 100%;
+}
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:28em;
+  width:14em;
+
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:14em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://images.unsplash.com/photo-1586015555751-63bb77f4322a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-title
+{
+  background-color: #FAFAFC;
+  height:14em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+
+}
+
+

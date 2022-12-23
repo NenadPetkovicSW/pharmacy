@@ -1,0 +1,26 @@
+sudo: required
+language: java
+jdk: oraclejdk11
+
+services:
+  - postgresql
+
+before_install:
+  - chmod +x mvnw
+
+addons:
+  sonarcloud:
+  organization: Jelena Miletic
+  token: 3dec14c0520ef162fafad218da8a01570702d4af
+
+script:
+  - ./mvnw clean install -DskipTests=false -B
+  - ./mvnw sonar:sonar -Dsonar.projectKey=jelenamiletic_apoteka_backend -Dsonar.organization="Jelena Miletic" -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=3dec14c0520ef162fafad218da8a01570702d4af
+
+
+dist: trusty
+
+deploy:
+  provider: heroku
+  api_key: b5c7ed70-f189-446f-a0de-82c2822210e3
+  app: isa-projekat-tim-16-2021

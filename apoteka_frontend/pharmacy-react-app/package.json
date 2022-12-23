@@ -1,0 +1,57 @@
+{
+  "name": "pharmacy-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@react-leaflet/core": ">=1.0.0 <1.1.0 || ^1.1.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "google-map-react": "^2.1.9",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.6.0",
+    "leaflet": "^1.7.1",
+    "react": "^17.0.2",
+    "react-available-times": "^1.4.0",
+    "react-bootstrap": "^1.6.0",
+    "react-bootstrap-range-slider": "^2.0.2",
+    "react-confirm-alert": "^2.7.0",
+    "react-datepicker": "^3.8.0",
+    "react-dom": "^17.0.2",
+    "react-geocode": "^0.2.3",
+    "react-leaflet": ">=3.1.0 <3.2.0 || ^3.2.1",
+    "react-modal": "^3.13.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-table": "^7.6.3",
+    "reactjs-popup": "^2.0.4",
+    "reactstrap": "^8.9.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0"
+  }
+}
